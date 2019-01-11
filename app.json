@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/project/project",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F7F7F7",
+    "navigationBarTitleText": "问卷调查",
+    "navigationBarTextStyle": "black"
+  }
+}
