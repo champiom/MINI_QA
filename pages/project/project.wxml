@@ -1,11 +1,11 @@
 <!--pages/project/project.wxml-->
 <view class="project_Container">
-<view class="project_title">
-  <text>创建项目</text>
-</view>
+  <view class="common_title">
+    <text>创建项目</text>
+  </view>
   <view class="content">
     
-    <view class="display_write">
+    <view class="display_write" catchtap='goEmpty'>
       <image class='img_icon' src='/images/icon/add_plus_48px.png'/> 
       <text>从空白创建</text>
     </view>

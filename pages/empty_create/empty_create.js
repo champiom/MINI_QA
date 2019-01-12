@@ -1,4 +1,4 @@
-// pages/project/project.js
+// pages/empty_create/empty_create.js
 Page({
 
   /**
@@ -14,7 +14,6 @@ Page({
   onLoad: function (options) {
 
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -62,18 +61,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-
-
-
-  /**
-   * 自定义方法
-   */
-  goEmpty() {
-    //点击跳转页面
-    wx.navigateTo({
-      url: "/pages/empty_create/empty_create",
-    })
-  },
+  }
 })

@@ -1,0 +1,13 @@
+<!--pages/empty_create/empty_create.wxml
+    空白模板创建
+-->
+<view class="empty_container">
+  <view class="empty_title">
+    <text class="empty_font">编辑</text>
+    <view class="deploy">
+      <image class="deploy_icon" src="/images/icon/Airplane_24px.png" />
+      <text class="deploy_text">发布</text>
+    </view>
+    
+  </view>
+</view>
