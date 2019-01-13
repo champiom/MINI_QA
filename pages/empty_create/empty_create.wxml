@@ -7,7 +7,27 @@
     <view class="deploy">
       <image class="deploy_icon" src="/images/icon/Airplane_24px.png" />
       <text class="deploy_text">发布</text>
+    </view><!-- deploy-->
+  </view><!-- empty_title-->
+  <text class="common_label">项目标题</text>
+  <input class="common_input" selection-start="3" type='text' placeholder='请输入项目标题'></input>
+   <text class='common_label'>欢迎语</text>
+   <textarea class="common_input title"value='感谢您能抽出几分钟来参与本次答题，现在我们马上开始吧'/>
+   <!-- <input class="common_input title" type='text' onfocus=this.blur() ></input> -->
+  <text class="common_label">题目</text>
+  <input class="common_input default_subject" disabled='true' type='text' placeholder='请点击右下角添加题目'></input>
+  <!-- 底部状态栏-->
+  <view class="flex fix_nav_wp">  
+    <view class="nav_link "></view>
+    <view class="nav_link ">
+      <button class="defalut_btn" bindtap='gotopublish'>
+        <view class="plus_wp">
+          <image src='../../images/icon/add_plus_48px.png' class="plus_ico" />
+        </view>
+        <text class="txt txt_fb">添加题目</text>
+      </button>
     </view>
-    
   </view>
+  <!-- 选择题目类型 -->
+  
 </view>

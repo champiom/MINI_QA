@@ -1,58 +1,7 @@
-/* pages/empty_create/empty_create.wxss */
-.deploy{
-  height:70rpx;
-  line-height: 70rpx;
-  float: right;
-  padding-top:10rpx;
-  margin-right: 20rpx;
-  color: rgb(0, 88, 255);
-}
-.deploy_text{
-  height:70rpx;
-  line-height: 70rpx;
-  font-size: 38rpx;
-  /* top: 30rpx; */
-
-}
-.deploy_icon{
-  width: 48rpx;
-  height:48rpx;
-  line-height:48rpx;
-  padding-top:10rpx;
-  margin-right: 20rpx;
-}
-.empty_font{
-  position: absolute;
-  left:340rpx;
-}
-.empty_title{
-  width:100%;
-  height:80rpx;
-  line-height: 80rpx;
-  /*margin-top: 20rpx;*/
-  background-color: #FFF;
-  
-}
-.empty_container{
-  display: flex;
-  flex-direction: column;
-  position: relative
-}
-.title{
-  height: 120rpx;
-  padding-top: 25rpx;
-}
-
-
-
-
-
+/* pages/template/nav.wxml.wxss */
 /* iconfont小图标 */
-.plus_ico{
-  width: 96rpx;
-  height:96rpx;
-}
 /*为了更好展示，iconfont的字体文件代码忽略辣，各位道友可以下载时候看*/
+/* page{font-size:26rpx;color:#666;} */
 .flex{display:-webkit-flex;display: flex;width:100%;}
 /*  底部悬浮导航  */
 .fix_nav_wp{height:110rpx;position: fixed;left:0;bottom:0;background:#fff;border-top:1rpx solid #e5e5e5;z-index: 10}
@@ -63,7 +12,7 @@ flex-direction: column;color:#999;position: relative;}
 height: 32rpx;padding:0 8rpx;color:#fff;background:#f00;border-radius:50em;border:1rpx solid #fff;}
 .fix_nav_wp .nav_link .iconfont{height:60rpx;font-size:56rpx;line-height: 80rpx;color: #c4c8cc;}
 .fix_nav_wp .nav_link .plus_wp{width:120rpx;height:120rpx;margin-top: -45rpx;}
-/* .fix_nav_wp .nav_link  image{width:68rpx;height:68rpx;} */
+.fix_nav_wp .nav_link  image{width:120rpx;height:120rpx;}
 .fix_nav_wp .nav_link .txt{height:50rpx;line-height:40rpx;color: #c4c8cc;}
 .fix_nav_wp .nav_link.current .txt{color:#00a2e9;}
 .fix_nav_wp .nav_link .del_ico{display: block;}

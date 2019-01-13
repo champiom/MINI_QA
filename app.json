@@ -3,7 +3,6 @@
     "pages/empty_create/empty_create",
     "pages/project/project",
     "pages/index/index"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -22,3 +22,21 @@ page {/**page可以在调试器中wxml中看见*/
 .common_font{
   font-size: 36rpx;
 }
+.common_label{
+  text-align: left;
+  font-size: 38rpx;
+  margin: 40rpx 50rpx;
+}
+/**设置通用表单*/
+.common_input{
+  width: 630rpx;
+  height: 110rpx;
+  background: #FFF;
+  border-radius: 20rpx;
+  margin-left: 50rpx;
+  padding-left:30rpx;
+}
+/**设置输入框为空时的样式*/
+/* .common_placeholder{
+  /* padding-left: 30rpx; 
+} */
